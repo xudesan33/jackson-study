@@ -1,0 +1,23 @@
+2021-04-19 14:01:19 INFO  StreamingDemo:174 - ********************执行一次对象转JSON操作********************
+2021-04-19 14:01:19 INFO  StreamingDemo:176 - 序列化结果是JSON字符串 : 
+{
+  "id" : 123456,
+  "text" : "this is a message for serializer test",
+  "fromUserId" : 101,
+  "toUserId" : 102,
+  "languageCode" : "zh"
+}
+
+
+2021-04-19 14:01:19 INFO  StreamingDemo:179 - ********************执行一次本地JSON反序列化操作********************
+2021-04-19 14:01:19 INFO  StreamingDemo:81 - 正在解析字段 [id]
+2021-04-19 14:01:19 INFO  StreamingDemo:81 - 正在解析字段 [text]
+2021-04-19 14:01:19 INFO  StreamingDemo:81 - 正在解析字段 [fromUserId]
+2021-04-19 14:01:19 INFO  StreamingDemo:81 - 正在解析字段 [toUserId]
+2021-04-19 14:01:19 INFO  StreamingDemo:81 - 正在解析字段 [languageCode]
+2021-04-19 14:01:19 INFO  StreamingDemo:181 - 
+本地JSON反序列化结果是个java实例 : 
+[Tweet, id: 1125687077, text='@stroughtonsmith You need to add a "Favourites" tab to TC/iPhone. Like what TwitterFon did. I can't WAIT for your Twitter App!! :) Any ETA?', from: 855523, to: 815309, lang: en]
+
+
+2021-04-19 14:01:19 INFO  StreamingDemo:184 - ********************执行一次网络JSON反序列化操作********************
